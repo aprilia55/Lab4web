@@ -27,8 +27,9 @@ Hasil akhir dari praktikum ini menyerupai contoh pada modul dengan struktur tamp
 
 ## 🧩 **Struktur Folder dan File**
 
-![foto]
-![foto]
+![foto]()
+
+![foto]()
 ---
 
 ## 🧱 **Penjelasan Kode**
