@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artikel - Layout Sederhana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>Layout Sederhana</h1>
+    </header>
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="artikel.html" class="active">Artikel</a>
+      <a href="about.html">About</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <section id="hero">
+      <h1>Artikel & Berita</h1>
+      <p>Kumpulan artikel dan informasi menarik seputar dunia teknologi.</p>
+    </section>
+
+    <section id="wrapper">
+      <section id="main">
+        <article class="entry">
+          <h2>Belajar HTML & CSS Dasar</h2>
+          <img src="https://dummyimage.com/150/3e73e6/fff.png" alt="Belajar HTML">
+          <p>
+            HTML dan CSS adalah dua bahasa utama dalam pembuatan website. 
+            HTML digunakan untuk membuat struktur halaman, sedangkan CSS digunakan untuk mempercantik tampilannya. 
+            Dengan memahami keduanya, kamu bisa membuat website yang menarik dan responsif.
+          </p>
+        </article>
+
+        <article class="entry">
+          <h2>Tips Membuat Layout Responsif</h2>
+          <img src="https://dummyimage.com/150/71e6d4/fff.png" alt="Layout Responsif">
+          <p>
+            Layout responsif membuat tampilan web tetap rapi di berbagai ukuran layar. 
+            Gunakan teknik seperti media query dan grid system untuk menyesuaikan lebar elemen.
+            Hal ini penting agar pengguna nyaman mengakses situs kamu, baik dari HP maupun komputer.
+          </p>
+        </article>
+
+        <article class="entry">
+          <h2>Pentingnya Semantic Tag di HTML5</h2>
+          <img src="https://dummyimage.com/150/db7d25/fff.png" alt="Semantic HTML5">
+          <p>
+            Semantic tag seperti &lt;header&gt;, &lt;section&gt;, dan &lt;footer&gt; membantu mesin pencari dan developer 
+            memahami struktur halaman dengan lebih baik. Selain itu, penggunaan tag semantik juga meningkatkan aksesibilitas website.
+          </p>
+        </article>
+      </section>
+
+      <aside id="sidebar">
+        <div class="widget-box">
+          <h3 class="title">Kategori</h3>
+          <ul>
+            <li><a href="#">Pemrograman</a></li>
+            <li><a href="#">Desain Web</a></li>
+            <li><a href="#">Teknologi</a></li>
+            <li><a href="#">Tips & Trik</a></li>
+          </ul>
+        </div>
+
+        <div class="widget-box">
+          <h3 class="title">Artikel Terbaru</h3>
+          <ul>
+            <li><a href="#">Mengenal HTML5 Lebih Dalam</a></li>
+            <li><a href="#">Cara Menggunakan CSS Grid</a></li>
+            <li><a href="#">Membuat Website Pertama Kamu</a></li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+    </footer>
+  </div>
+</body>
+</html>
