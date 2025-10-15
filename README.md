@@ -80,16 +80,7 @@ Berisi widget link dan teks dengan header biru.
 ✅ **Footer**
 Berwarna hitam dengan teks hak cipta “© 2025 - Universitas Pelita Bangsa”.
 
----
 
-## ⚙️ **Teknologi yang Digunakan**
-- HTML5  
-- CSS3  
-- Google Fonts (Open Sans)  
-- Dummy Image Generator ([dummyimage.com](https://dummyimage.com))  
-
----
----
 
 ## 🧠 **Kesimpulan**
 Melalui praktikum ini, saya belajar cara:
@@ -101,7 +92,8 @@ Melalui praktikum ini, saya belajar cara:
 ---
 
 ## 📷 **Preview Tampilan**
-![foto]
+![foto](https://github.com/aprilia55/Lab4web/blob/f1d9ccedfe070d78c57c51fa91e1f86c0fefc6d6/Screenshot%20(301).png)
+
 
 ---
 
